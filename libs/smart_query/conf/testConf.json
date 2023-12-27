@@ -1,0 +1,145 @@
+{
+    "selectedFields" : [
+        {
+            "source_name" : "adls",
+            "datasetName" : "tbl1",
+            "fieldName" : "col1",
+            "isFunction" : "True",
+            "function" : [
+                {
+                    "funName" : "trim",
+                    "params" : {
+                        "colm" : "tbl1.col1"
+                    }
+                }
+            ],
+            "renameCol" : "True",
+            "renameColName" : "coln"
+        },
+        {
+            "datasetName" : "tbl1",
+            "fieldName" : "col2",
+            "isFunction" : "False",
+            "renameCol" : "False"
+        }
+    ],
+    "from" : "tbl1",
+    "join" : {
+            "0" : {"table_name" : "tbl1"},
+            "1" : {
+                "table_name" : "tbl2",
+                "join_type" : "inner",
+                "columns" : [
+                    {
+                        "left_tbl" : "tbl1",
+                        "left_column" : "colx",
+                        "right_table" : "tbl2",
+                        "right_column" : "colx"
+                    },
+                    {
+                        "left_tbl" : "tbl1",
+                        "left_column" : "coly",
+                        "right_table" : "tbl2",
+                        "right_column" : "coly"
+                    }
+                ]
+            },
+            "2" : {
+                "table_name" : "tbl3",
+                "join_type" : "inner",
+                "columns" : [
+                    {
+                        "left_tbl" : "tbl1",
+                        "left_column" : "coly",
+                        "right_table" : "tbl3",
+                        "right_column" : "coly"
+                    }
+                ]
+            }
+    },
+    "filters" : {
+        "fields" : [
+            {
+                "datasetName" : "tbl1",
+                "fieldName" : "col1",
+                "operator" : "in",
+                "params" : {
+                    "value" : "(1,'a')"
+                }
+            },
+            {
+                "datasetName" : "tbl2",
+                "fieldName" : "col2",
+                "operator" : "like",
+                "params" : {
+                    "value" : "a%"
+                }
+            },
+            {
+                "datasetName" : "tbl3",
+                "fieldName" : "col3",
+                "operator" : "between",
+                "params" : {
+                    "lowerValue" : 1,
+                    "upperValue" : 3
+                }
+            }
+        ],
+        "condition" : "AND"
+    },
+    "groupBy" : {
+        "keys": [
+            {
+                "datasetName" : "tbl1",
+                "fieldName" : "col1"
+            },
+            {
+                "datasetName" : "tbl2",
+                "fieldName" : "col2"
+            },
+            {
+                "datasetName" : "tbl3",
+                "fieldName" : "col3"
+            }
+        ],
+        "aggregations":[
+            {
+                "fieldName" : "tbl1.col1",
+                "function" : [
+                    {
+                        "funName" : "summation",
+                        "params" : {
+                            "colm" : "tbl1.col1"
+                        }
+                    }
+                ]
+            }
+        ],
+        "having" : {
+            "fields" : [
+            {
+                "datasetName" : "tbl1",
+                "fieldName" : "col1",
+                "operator" : "equals",
+                "params" : {
+                    "value" : 10
+                }
+            }
+        ],
+        "condition" : "AND"
+        }
+    },
+    "sortField" : [
+        {
+            "datasetName": "tbl1",
+            "field": "col1",
+            "dir": "asc"
+        },
+        {
+            "datasetName": "tbl2",
+            "field": "col2",
+            "dir": "desc"
+        }
+    ],
+    "limit" : 100
+}

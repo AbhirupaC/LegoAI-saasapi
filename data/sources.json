@@ -1,0 +1,120 @@
+[
+  {
+    "id": 0,
+    "name": "Marketo",
+    "subitems": [
+      {
+        "id": "CustomerCustomer Demographics",
+        "name": "Customer Demographics"
+      },
+      {
+        "id": "ProductProduct Feature",
+        "name": "Product Feature"
+      },
+      {
+        "id": "SupportService Request",
+        "name": "Service Request"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "SalesForce",
+    "subitems": [
+      {
+        "id": "SupportReturns",
+        "name": "Returns"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Predix",
+    "subitems": [
+      {
+        "id": "MarketingCampaign Survey",
+        "name": "Campaign Survey"
+      },
+      {
+        "id": "MarketingWebsite",
+        "name": "Website"
+      },
+      {
+        "id": "OrdersExpense",
+        "name": "Expense"
+      },
+      {
+        "id": "ProductProduct Engg",
+        "name": "Product Engg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Oracle",
+    "subitems": [
+      {
+        "id": "MarketingCampaigns",
+        "name": "Campaigns"
+      },
+      {
+        "id": "OrdersOpportunity",
+        "name": "Opportunity"
+      },
+      {
+        "id": "OrdersInstall Base",
+        "name": "Install Base"
+      },
+      {
+        "id": "Supply ChainLogistics",
+        "name": "Logistics"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Kinaxis",
+    "subitems": [
+      {
+        "id": "Supply ChainDelivery_Survey",
+        "name": "Delivery_Survey"
+      },
+      {
+        "id": "SupportNPS Survey",
+        "name": "NPS Survey"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "SurveyMonkey",
+    "subitems": [
+      {
+        "id": "CustomerCustomer Hierarchy",
+        "name": "Customer Hierarchy"
+      },
+      {
+        "id": "SupportProb_Statement_Issue",
+        "name": "Prob_Statement_Issue"
+      },
+      {
+        "id": "OrdersRenewals",
+        "name": "Renewals"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "ServiceNow",
+    "subitems": [
+      {
+        "id": "ProductProduct Hierarchy",
+        "name": "Product Hierarchy"
+      },
+      {
+        "id": "Supply ChainInventory",
+        "name": "Inventory"
+      }
+    ]
+  }
+]

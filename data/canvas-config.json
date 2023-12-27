@@ -1,0 +1,3573 @@
+{
+    "nodes": [
+      {
+        "id": "Marketing",
+        "color": "rgb(0, 0, 255)",
+        "icon": "https://legoai.com/assets/ontocraft/marketing.png",
+        "invisibleNode": true,
+        "size": 10, 
+        "shape": "circle", 
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "grey", 
+        "dataQuality": [
+          70, 
+          20, 
+          10
+        ]
+      },
+      {
+        "id": "Orders",
+        "color": "rgb(255, 165, 0)",
+        "icon": "https://legoai.com/assets/ontocraft/sales.png",
+        "invisibleNode": true,
+        "size": 10,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "grey", "dataQuality": [
+          80,
+          10,
+          10
+        ]
+      },
+      {
+        "id": "Customer",
+        "color": "rgb(255, 0, 0)",
+        "icon": "https://legoai.com/assets/ontocraft/customer.png",
+        "invisibleNode": true,
+        "size": 10,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "grey", "dataQuality": [
+          87,
+          12,
+          1
+        ]
+      },
+      {
+        "id": "Product",
+        "color": "rgb(112, 48, 160)",
+        "icon": "https://legoai.com/assets/ontocraft/product.png",
+        "invisibleNode": true,
+        "size": 10,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "grey", "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Supply Chain",
+        "color": "rgb(0, 176, 240)",
+        "icon": "https://legoai.com/assets/ontocraft/supplyChain.png",
+        "invisibleNode": true,
+        "size": 10,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "grey", "dataQuality": [
+          75,
+          20,
+          5
+        ]
+      },
+      {
+        "id": "Support",
+        "color": "rgb(146, 208, 80)",
+        "icon": "https://legoai.com/assets/ontocraft/supportServices.png",
+        "invisibleNode": true,
+        "size": 10,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "grey", "dataQuality": [
+          95,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "MarketingCampaigns",
+        "color": "rgb(0, 0, 255)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(0, 0, 255)", "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsCampaign id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsCampaign Type",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsCampaign Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsCampaign Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsEngagement id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsParticipant Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsParticipant In Time",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsParticipant Out Time",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsCustomer / Prospect Flag",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsProspect Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsProspect id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsProd_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsCompany Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CampaignsCost / Expense ($)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "MarketingCampaign Survey",
+        "color": "rgb(0, 0, 255)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(0, 0, 255)",
+        "dataQuality": [
+          80,
+          10,
+          10
+        ]
+      },
+      {
+        "id": "Campaign SurveyCampaign Type",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Campaign SurveyCampaign Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Campaign SurveySurvey Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Campaign SurveyEng id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Campaign SurveyParticipant Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Campaign SurveyParticipant Score",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Campaign SurveyFeedback / Comments",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "MarketingWebsite",
+        "color": "rgb(0, 0, 255)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(0, 0, 255)", "dataQuality": [
+          97,
+          0,
+          3
+        ]
+      },
+      {
+        "id": "WebsiteCustomer Session id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "WebsiteContact Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "WebsiteWebsite Section",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "WebsiteContent_Click",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "WebsiteDemo Request",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "WebsiteEnquiry Submission Flag",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "WebsiteSession Login Time",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "WebsiteSession Log Out Time",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OrdersOpportunity",
+        "color": "rgb(255, 165, 0)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(255, 165, 0)",
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunityOpportunity id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunitySales Rep id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunitySales Rep Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunityRegion",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunityCountry",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunityCnt id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunityContact Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunityProspect_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunityCustomer Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunityOpp Initiation Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunityOpp Close Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunityOpportunity Status",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OpportunityOpportunity Stage",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OrdersExpense",
+        "color": "rgb(255, 165, 0)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(255, 165, 0)",
+        "dataQuality": [
+          7,
+          70,
+          23
+        ]
+      },
+      {
+        "id": "ExpenseExpense id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ExpenseExpense Type ",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ExpenseExpense Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ExpenseCost / Expense ($)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ExpenseContact id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ExpenseContact Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ExpenseCustomer Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OrdersInstall Base",
+        "color": "rgb(255, 165, 0)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(255, 165, 0)",
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseCust id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseCustomer Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseOrder Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseOrder id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseOrder Status",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseOrder Value ($)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseOrder Qty",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseProd_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseProduct Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseProduct Desc",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseProduct Family",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseShip to Country",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Install BaseBill to Country",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CustomerCustomer Hierarchy",
+        "color": "rgb(255, 0, 0)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(255, 0, 0)",
+        "dataQuality": [
+          77,
+          21,
+          2
+        ]
+      },
+      {
+        "id": "Customer HierarchyParty id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Customer HierarchyParty Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Customer HierarchyGlobal / Local Entity",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Customer HierarchyGlobal  / Parent Account",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "CustomerCustomer Demographics",
+        "color": "rgb(255, 0, 0)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(255, 0, 0)",
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Customer DemographicsParty id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Customer DemographicsCustomer Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Customer DemographicsAddress",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Customer DemographicsIndustry / Vertical",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Customer DemographicsAnnual Revenue",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ProductProduct Hierarchy",
+        "color": "rgb(112, 48, 160)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(112, 48, 160)",
+        "dataQuality": [
+          97,
+          2,
+          1
+        ]
+      },
+      {
+        "id": "Product HierarchyProduct Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product HierarchyProduct id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product HierarchyProduct Desc Short",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product HierarchyProduct Desc Long",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product HierarchyProduct Family",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product HierarchyTechnology Group",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ProductProduct Engg",
+        "color": "rgb(112, 48, 160)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(112, 48, 160)", "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product EnggProduct id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product EnggProduct Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product EnggProduct Category",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product EnggProduct Status",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product EnggR&D Initiation Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product EnggR&D Stage",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product EnggLaunch Status",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product EnggLaunch Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product EnggPM Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product EnggProduct Cost ($)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ProductProduct Feature",
+        "color": "rgb(112, 48, 160)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(112, 48, 160)",
+        "dataQuality": [
+          72,
+          22,
+          6
+        ]
+      },
+      {
+        "id": "Product FeatureProduct id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product FeatureProd Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product FeatureWeight (Oz)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product FeatureLength (cm)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product FeatureWidth (Cm)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product FeatureHeight (Cm)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product FeatureCapacity",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Product FeatureTemperature (F)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Supply ChainLogistics",
+        "color": "rgb(0, 176, 240)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(0, 176, 240)", "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "LogisticsOdr_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "LogisticsC_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "LogisticsProduct Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "LogisticsOrder Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "LogisticsOrder Status",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "LogisticsFulfilment Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "LogisticsDelivery Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "LogisticsDelivery Status",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "LogisticsConsignment Location",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Supply ChainDelivery_Survey",
+        "color": "rgb(0, 176, 240)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(0, 176, 240)", "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Delivery_SurveyCust_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Delivery_SurveyCustomer Feedback",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Delivery_SurveySurvey Score",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Supply ChainInventory",
+        "color": "rgb(0, 176, 240)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(0, 176, 240)", "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "InventoryP_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "InventoryProduct Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "InventoryInventory (Units)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "InventoryQuantity",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "InventoryInventory Location",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "InventoryInventory Status",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "SupportService Request",
+        "color": "rgb(146, 208, 80)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(146, 208, 80)", "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Service RequestSR id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Service RequestContract_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Service RequestSR Type",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Service RequestSR Creation Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Service RequestSR Closed Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Service RequestSR Status",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Service RequestSR Engineer",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Service RequestOutage",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "SupportProb_Statement_Issue",
+        "color": "rgb(146, 208, 80)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(146, 208, 80)", "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Prob_Statement_IssueSrv_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Prob_Statement_IssueProblem Statement",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Prob_Statement_IssueDescription",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Prob_Statement_IssueSummary",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Prob_Statement_IssueCustomer Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Prob_Statement_IssueProd_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "Prob_Statement_IssueProduct Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "SupportNPS Survey",
+        "color": "rgb(146, 208, 80)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(146, 208, 80)", "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "NPS SurveyCustomer id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "NPS SurveySR id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "NPS SurveyCustomer Feedback",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "NPS SurveySurvey Score",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "SupportReturns",
+        "color": "rgb(146, 208, 80)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(146, 208, 80)", "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ReturnsReturn_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ReturnsReturn Type",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ReturnsReturn Creation Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ReturnsReturn Closed Date",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ReturnsReturn Status",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ReturnsReturn Value ($)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "ReturnsCost ($)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "OrdersRenewals",
+        "color": "rgb(255, 165, 0)",
+        "icon": "https://legoai.com/assets/ontocraft/Table.png",
+        "invisibleNode": true,
+        "size": 4,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 100,
+        "labelBgColor": "rgb(255, 165, 0)", "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "RenewalsCustomer_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "RenewalsCustomer Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "RenewalsProduct_id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "RenewalsProduct Name",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "RenewalsR_Order id",
+        "icon": "https://legoai.com/assets/ontocraft/number.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "RenewalsValue ($)",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      },
+      {
+        "id": "RenewalsQuantity",
+        "icon": "https://legoai.com/assets/ontocraft/text.png",
+        "invisibleNode": false,
+        "size": 1,
+        "inheritParent": true,
+        "shape": "circle",
+        "labelColor": "white",
+        "importance": 60,
+        "dataQuality": [
+          70,
+          20,
+          10
+        ]
+      }
+    ],
+    "links": [
+      {
+        "id": 28,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 1,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 3,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 5,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 7,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 9,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 11,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 13,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 15,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 17,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 19,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 27,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 23,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 25,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 29,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 42,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 31,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 33,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 35,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 37,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 39,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 41,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 43,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 58,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 45,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 47,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 49,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 51,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 53,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 55,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 57,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 59,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 84,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 61,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 63,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 65,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 67,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 69,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 71,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 73,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 75,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 77,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 79,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 81,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 83,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 85,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 98,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 87,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 89,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 91,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 93,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 95,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 97,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 99,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 124,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 101,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 103,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 105,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 107,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 109,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 111,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 113,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 115,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 117,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 119,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 121,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 123,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 125,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 132,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 127,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 129,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 131,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 133,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 142,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 135,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 137,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 139,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 141,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 143,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 154,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 145,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 147,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 149,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 151,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 153,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 155,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 174,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 157,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 159,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 161,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 163,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 165,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 167,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 169,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 171,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 173,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 175,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 190,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 177,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 179,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 181,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 183,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 185,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 187,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 189,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 191,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 208,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 193,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 195,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 197,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 199,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 201,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 203,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 205,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 207,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 209,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 214,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 211,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 213,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 215,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 226,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 217,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 219,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 221,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 223,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 225,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 227,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 246,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 229,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 231,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 233,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 235,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 237,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 239,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 245,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 247,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 260,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 249,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 251,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 253,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 255,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 257,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 259,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 261,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 268,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 263,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 265,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 267,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 269,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 282,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 271,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 273,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 275,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 277,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 279,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 281,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 283,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 296,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 285,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 287,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 289,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 291,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 293,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 295,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      },
+      {
+        "id": 297,
+        "color": "grey",
+        "lineType": "solid",
+        "labelColor": "grey"
+      }
+    ]
+  }
+  
+  
+  

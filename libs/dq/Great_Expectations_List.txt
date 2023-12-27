@@ -1,0 +1,140 @@
+expect_table_row_count_to_equal(value): Checks if the number of rows in the dataset is equal to the specified value.
+expect_table_columns_to_match_ordered_list(column_list): Verifies that the dataset's columns match the provided list of column names in the same order.
+expect_column_to_exist(column_name): Checks if a specified column exists in the dataset.
+expect_column_to_not_exist(column_name): Verifies that a specified column does not exist in the dataset.
+expect_column_values_to_be_unique(column_name): Ensures that all values in a specified column are unique.
+expect_column_values_to_not_be_null(column_name): Validates that there are no null or missing values in a specified column.
+expect_column_values_to_be_null(column_name): Checks if all values in a specified column are null or missing.
+expect_column_values_to_be_of_type(column_name, column_type): Verifies that the values in a specified column are of the expected data type.
+expect_column_values_to_be_in_set(column_name, value_set): Checks if all values in a specified column are present in a predefined set of values.
+expect_column_values_to_not_be_in_set(column_name, value_set): Ensures that none of the values in a specified column are present in a predefined set of values.
+expect_column_values_to_be_in_type_list(column_name, type_list): Validates that the values in a specified column belong to the expected data types listed.
+expect_column_values_to_be_between(column_name, min_value, max_value): Checks if all values in a specified column fall within a given range.
+expect_column_value_lengths_to_be_between(column_name, min_value, max_value): Ensures that the lengths of values in a specified column fall within a given range.
+expect_column_values_to_match_regex(column_name, regex): Validates that all values in a specified column match a specified regular expression pattern.
+expect_column_values_to_not_match_regex(column_name, regex): Checks that none of the values in a specified column match a specified regular expression pattern.
+expect_column_mean_to_be_between(column_name, min_value, max_value): Verifies if the mean of a specified column falls within a given range.
+expect_column_median_to_be_between(column_name, min_value, max_value): Checks if the median of a specified column falls within a given range.
+expect_column_quantile_values_to_be_between(column_name, quantile_ranges): Ensures that the specified quantiles of a column fall within the given value ranges.
+expect_column_stdev_to_be_between(column_name, min_value, max_value): Validates if the standard deviation of a specified column falls within a given range.
+expect_table_row_count_to_be_between(min_value, max_value): Verifies that the number of rows in the dataset falls within a specified range.
+expect_column_distinct_values_to_be_in_set(column_name, value_set): Ensures that all distinct values in a specified column are present in a predefined set of values.
+expect_column_distinct_values_to_contain_set(column_name, value_set): Checks if the distinct values in a specified column contain at least one value from a predefined set of values.
+expect_column_distinct_values_to_equal_set(column_name, value_set): Verifies that the distinct values in a specified column exactly match a predefined set of values.
+expect_column_mean_to_be_greater_than(column_name, value): Validates if the mean of a specified column is greater than a given value.
+expect_column_mean_to_be_less_than(column_name, value): Validates if the mean of a specified column is less than a given value.
+expect_column_median_to_be_greater_than(column_name, value): Checks if the median of a specified column is greater than a given value.
+expect_column_median_to_be_less_than(column_name, value): Checks if the median of a specified column is less than a given value.
+expect_column_sum_to_be_between(column_name, min_value, max_value): Verifies if the sum of values in a specified column falls within a given range.
+expect_column_min_to_be_between(column_name, min_value, max_value): Ensures that the minimum value in a specified column falls within a given range.
+expect_column_max_to_be_between(column_name, min_value, max_value): Ensures that the maximum value in a specified column falls within a given range.
+expect_column_values_to_be_unique_within_record(column_name): Validates that all values within each record of a specified column are unique.
+expect_column_values_to_match_strftime_format(column_name, strftime_format): Checks if all values in a specified column match a specified strftime format.
+expect_column_values_to_be_dateutil_parseable(column_name): Verifies that all values in a specified column can be parsed as valid dates using dateutil.parser.parse.
+expect_column_values_to_be_json_parseable(column_name): Ensures that all values in a specified column can be parsed as valid JSON.
+expect_column_values_to_match_json_schema(column_name, json_schema): Validates that all values in a specified column match a specified JSON schema.
+expect_column_values_to_match_regex_list(column_name, regex_list): Checks if any of the regular expressions in a specified list match all values in a column.
+expect_column_values_to_not_match_regex_list(column_name, regex_list): Ensures that none of the regular expressions in a specified list match any value in a column.
+expect_column_values_to_be_increasing(column_name, strict=False): Validates that the values in a specified column are in increasing order.
+expect_column_values_to_be_decreasing(column_name, strict=False): Validates that the values in a specified column are in decreasing order.
+expect_column_values_to_be_monotonically_increasing(column_name, strict=False): Ensures that the values in a specified column are monotonically increasing (strictly increasing or non-decreasing).
+expect_column_values_to_be_monotonically_decreasing(column_name, strict=False): Ensures that the values in a specified column are monotonically decreasing (strictly decreasing or non-increasing).
+expect_column_values_to_be_in_set_proportion_of_time(column_name, value_set, threshold): Checks if values in a specified column are present in a predefined set for a certain proportion of time based on a threshold.
+expect_column_kl_divergence_to_be_less_than(column_name, partition_object, threshold): Checks if the Kullback-Leibler divergence between the distribution of values in a specified column and a partition object is less than a given threshold.
+expect_column_bootstrapped_ks_test_p_value_to_be_greater_than(column_name, partition_object, threshold): Validates that the p-value from a Kolmogorov-Smirnov test between the values in a specified column and a partition object is greater than a given threshold.
+expect_compound_columns_to_be_unique(column_list): Ensures that the combination of values across multiple columns is unique for each row.
+expect_select_column_values_to_be_unique_within_record(column_list): Validates that the combination of values across specified columns is unique within each record.
+expect_column_pair_values_A_to_be_greater_than_B(column_A, column_B): Checks if the values in column A are greater than the corresponding values in column B.
+expect_column_pair_values_to_be_equal(column_A, column_B): Verifies that the values in column A are equal to the corresponding values in column B.
+expect_multicolumn_values_to_be_unique(column_list): Ensures that the combination of values across multiple columns is unique across all rows.
+expect_multicolumn_unique_composite_constraint(column_list): Validates that the combination of values across specified columns is unique for each row, forming a composite constraint.
+expect_column_values_to_be_within_n_std_devs(column_name, n_std_devs): Checks if all values in a specified column fall within a certain number of standard deviations from the mean.
+expect_column_values_to_be_unique_within_tolerance(column_name, tolerance): Validates that all values in a specified column are unique within a certain tolerance.
+expect_multicolumn_values_to_be_unique_within_record(column_list): Ensures that the combination of values across multiple columns is unique within each record.
+expect_multicolumn_values_to_be_unique(column_list): Validates that the combination of values across specified columns is unique across all records.
+expect_compound_columns_to_be_unique_within_record(column_list): Checks if the combination of values across specified columns is unique within each record.
+expect_column_values_to_be_increasing_strictly(column_name): Ensures that the values in a specified column are strictly increasing.
+expect_column_values_to_be_decreasing_strictly(column_name): Ensures that the values in a specified column are strictly decreasing.
+expect_column_values_to_be_non_increasing(column_name): Validates that the values in a specified column are non-increasing (can stay the same or decrease).
+expect_column_values_to_be_non_decreasing(column_name): Validates that the values in a specified column are non-decreasing (can stay the same or increase).
+expect_column_values_to_be_mixture_of_datatypes(column_name): Checks if the values in a specified column are a mixture of different datatypes.
+expect_column_values_to_be_increasing_logical_units(column_name): Validates that the values in a specified column are increasing by logical units.
+expect_column_values_to_be_decreasing_logical_units(column_name): Validates that the values in a specified column are decreasing by logical units.
+expect_column_values_to_match_like_pattern(column_name, like_pattern): Checks if the values in a specified column match a SQL LIKE pattern.
+expect_column_values_to_match_regex_pattern(column_name, regex_pattern): Checks if the values in a specified column match a regular expression pattern.
+expect_column_values_to_not_match_like_pattern(column_name, like_pattern): Ensures that the values in a specified column do not match a SQL LIKE pattern.
+expect_column_values_to_not_match_regex_pattern(column_name, regex_pattern): Ensures that the values in a specified column do not match a regular expression pattern.
+expect_column_values_to_be_dateutil_parseable(column_name): Validates that all values in a specified column can be parsed as valid dates using dateutil.parser.parse.
+expect_column_values_to_be_valid_email(column_name): Checks if the values in a specified column are valid email addresses.
+expect_column_values_to_be_valid_url(column_name): Checks if the values in a specified column are valid URLs.
+expect_column_values_to_be_unique_within_groups(column_name, group_columns): Ensures that the combination of values in a specified column is unique within each group defined by a set of group columns.
+expect_column_values_to_match_regex(column_name, regex): Validates that all values in a specified column match a specified regular expression pattern.
+expect_column_values_to_not_match_regex(column_name, regex): Ensures that none of the values in a specified column match a specified regular expression pattern.
+expect_column_values_to_match_regex_list(column_name, regex_list): Checks if any of the regular expressions in a specified list match all values in a column.
+expect_column_values_to_not_match_regex_list(column_name, regex_list): Ensures that none of the regular expressions in a specified list match any value in a column.
+expect_column_values_to_match_json_schema(column_name, json_schema): Validates that all values in a specified column match a specified JSON schema.
+expect_column_values_to_match_yaml_schema(column_name, yaml_schema): Validates that all values in a specified column match a specified YAML schema.
+expect_column_values_to_match_regex_with_options(column_name, regex, regex_options): Validates that all values in a specified column match a specified regular expression pattern with specified regex options.
+expect_column_values_to_be_increasing_batch_over_batch(column_name, batch_identifier, strict=False): Ensures that the values in a specified column are strictly increasing across batches based on a batch identifier.
+expect_column_values_to_be_decreasing_batch_over_batch(column_name, batch_identifier, strict=False): Ensures that the values in a specified column are strictly decreasing across batches based on a batch identifier.
+expect_table_column_count_to_equal(value): Checks if the number of columns in the dataset is equal to the specified value.
+expect_table_columns_to_match_set(column_set): Verifies that the dataset's columns exactly match a provided set of column names.
+expect_table_columns_to_match_regex(regex_pattern): Checks if the dataset's column names match a specified regular expression pattern.
+expect_table_columns_to_match_ordered_set(column_set): Verifies that the dataset's columns match a provided set of column names in any order.
+expect_table_columns_to_not_contain_duplicates(): Ensures that there are no duplicate column names in the dataset.
+expect_table_columns_to_be_of_type(column_type_dict): Validates that the columns in the dataset have the expected data types specified in a dictionary.
+expect_table_columns_to_match_ordered_schema(column_list_with_optional_type): Checks if the dataset's columns match a specified schema, defined as a list of column names with optional data types.
+expect_table_row_count_to_be_zero(): Validates that the number of rows in the dataset is zero.
+expect_table_row_count_to_equal_other_table(table_name): Checks if the number of rows in the dataset is equal to the number of rows in another table.
+expect_table_row_count_to_be_between_other_table(table_name, min_value, max_value): Validates that the number of rows in the dataset falls within a specified range compared to another table.
+expect_table_row_count_to_match_regex(column_name, regex_pattern): Checks if the number of rows in the dataset matches a regular expression pattern specified in a column.
+expect_table_columns_to_match_ordered_list_ignore_missing(column_list): Verifies that the dataset's columns exactly match a provided list of column names, ignoring any missing columns.
+expect_table_columns_to_match_set_ignore_missing(column_set): Verifies that the dataset's columns match a provided set of column names, allowing for missing columns.
+expect_table_columns_to_match_ordered_set_ignore_missing(column_set): Verifies that the dataset's columns match a provided set of column names in any order, allowing for missing columns.
+expect_table_columns_to_match_regex_ignore_missing(regex_pattern): Checks if the dataset's column names match a specified regular expression pattern, allowing for missing columns.
+expect_table_columns_to_match_ordered_schema_ignore_missing(column_list_with_optional_type): Checks if the dataset's columns match a specified schema, defined as a list of column names with optional data types, allowing for missing columns.
+expect_table_columns_to_match_ordered_list_ignore_extra(column_list): Verifies that the dataset's columns exactly match a provided list of column names, allowing for extra columns.
+expect_table_columns_to_match_set_ignore_extra(column_set): Verifies that the dataset's columns match a provided set of column names, allowing for extra columns.
+expect_table_columns_to_match_ordered_set_ignore_extra(column_set): Verifies that the dataset's columns match a provided set of column names in any order, allowing for extra columns.
+expect_table_columns_to_match_regex_ignore_extra(regex_pattern): Checks if the dataset's column names match a specified regular expression pattern, allowing for extra columns.
+expect_table_columns_to_match_ordered_schema_ignore_extra(column_list_with_optional_type): Checks if the dataset's columns match a specified schema, defined as a list of column names with optional data types, allowing for extra columns.
+expect_table_row_count_to_be_even(): Validates that the number of rows in the dataset is an even number.
+expect_table_row_count_to_be_odd(): Validates that the number of rows in the dataset is an odd number.
+expect_table_row_count_to_be_in_set(value_set): Checks if the number of rows in the dataset is present in a predefined set of values.
+expect_table_row_count_to_match_regex(regex_pattern): Checks if the number of rows in the dataset matches a specified regular expression pattern.
+expect_column_proportion_of_unique_values_to_be_between(column_name, min_value, max_value): Ensures that the proportion of unique values in a specified column falls within a given range.
+expect_column_proportion_of_missing_values_to_be_between(column_name, min_value, max_value): Checks if the proportion of missing values in a specified column falls within a given range.
+expect_column_proportion_of_unique_values_to_be_greater_than(column_name, threshold): Validates that the proportion of unique values in a specified column is greater than a given threshold.
+expect_column_proportion_of_missing_values_to_be_greater_than(column_name, threshold): Validates that the proportion of missing values in a specified column is greater than a given threshold.
+expect_table_columns_to_match_regex_list(column_regex_list): Checks if the dataset's column names match any of the regular expression patterns in a specified list.
+expect_table_columns_to_not_match_regex_list(column_regex_list): Ensures that none of the dataset's column names match any of the regular expression patterns in a specified list.
+expect_multicolumn_sum_to_equal(column_list, sum_column_name): Validates that the sum of values across specified columns is equal to the values in a sum column.
+expect_multicolumn_sum_to_be_between(column_list, min_value, max_value, sum_column_name): Checks if the sum of values across specified columns falls within a given range compared to the values in a sum column.
+expect_multicolumn_mean_to_equal(column_list, mean_column_name): Verifies that the mean of values across specified columns is equal to the value in a mean column.
+expect_multicolumn_mean_to_be_between(column_list, min_value, max_value, mean_column_name): Ensures that the mean of values across specified columns falls within a given range compared to the value in a mean column.
+expect_multicolumn_median_to_equal(column_list, median_column_name): Validates that the median of values across specified columns is equal to the value in a median column.
+expect_multicolumn_median_to_be_between(column_list, min_value, max_value, median_column_name): Checks if the median of values across specified columns falls within a given range compared to the value in a median column.
+expect_column_values_to_be_in_list(column_name, value_list): Validates that all values in a specified column are present in a predefined list of values.
+expect_column_values_to_not_be_in_list(column_name, value_list): Ensures that none of the values in a specified column are present in a predefined list of values.
+expect_table_row_count_to_equal_other_table_subset(table_name, subset_filter): Checks if the number of rows in the dataset is equal to the number of rows in a subset of another table.
+expect_table_row_count_to_be_increasing_batch_over_batch(batch_identifier): Ensures that the number of rows in the dataset is increasing across batches based on a batch identifier.
+expect_table_column_count_to_be_between(min_value, max_value): Validates that the number of columns in the dataset falls within a specified range.
+expect_table_row_count_to_equal_other_table_filtered(table_name, filter_expression): Checks if the number of rows in the dataset is equal to the number of rows in another table after applying a filter expression.
+expect_table_row_count_to_match_other_table_filtered_regex(table_name, filter_expression, regex_pattern): Checks if the number of rows in the dataset, after applying a filter expression, matches a specified regular expression pattern.
+expect_table_row_count_to_be_null(): Validates that the number of rows in the dataset is null or missing.
+expect_table_row_count_to_not_be_null(): Ensures that the number of rows in the dataset is not null or missing.
+expect_column_distinct_values_to_be_unique(column_name): Validates that the distinct values in a specified column are unique.
+expect_column_distinct_values_to_not_be_null(column_name): Ensures that there are no null or missing distinct values in a specified column.
+expect_column_distinct_values_to_be_in_set(column_name, value_set): Checks if all distinct values in a specified column are present in a predefined set of values.
+expect_column_distinct_values_to_not_be_in_set(column_name, value_set): Ensures that none of the distinct values in a specified column are present in a predefined set of values.
+expect_column_pair_values_to_be_equal_within_tolerance(column_A, column_B, tolerance): Validates that the values in column A and column B are equal within a specified tolerance.
+expect_multicolumn_values_to_be_unique_within_record(column_list): Ensures that the combination of values across multiple columns is unique within each record.
+expect_multicolumn_values_to_not_be_null(column_list): Checks that there are no null or missing values across specified columns.
+expect_multicolumn_values_to_be_of_type(column_list, column_type): Validates that the values across specified columns are of the expected data type.
+expect_compound_columns_to_be_unique_within_record(column_list): Ensures that the combination of values across specified columns is unique within each record.
+expect_compound_columns_to_not_be_null(column_list): Validates that there are no null or missing values across specified compound columns.
+expect_compound_columns_to_be_of_type(column_list, column_type): Checks that the values across specified compound columns are of the expected data type.
+expect_column_values_to_be_null(column_name): Validates that all values in a specified column are null or missing.
+expect_column_values_to_be_of_type_with_regex(column_name, column_type, regex_pattern): Validates that the values in a specified column match a specified data type and regular expression pattern.
+expect_column_values_to_be_between_time(column_name, start_time, end_time): Checks if the values in a specified column fall within a specified time range.
+expect_column_values_to_be_dateutil_parseable_to_format(column_name, strftime_format): Validates that all values in a specified column can be parsed as valid dates with a specified strftime format.

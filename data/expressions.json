@@ -1,0 +1,299 @@
+[
+  {
+    "key": "transformations",
+    "expanded": true,
+    "data": [
+      {
+        "key": "type casting",
+        "expanded": false,
+        "data": [
+          {
+            "key": "toInt",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "toBigInt",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "toFloat",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "toDouble",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "toDate",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "toString",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "toBoolean",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "string functions",
+        "expanded": false,
+        "data": [
+          {
+            "key": "concat",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colmns",
+                "type" : "array" 
+              }
+            ]
+          },
+          {
+            "key": "concat_ws",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colmns",
+                "type" : "array" 
+              },
+              {
+                "name" : "sep",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "trim",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "ltrim",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "rtrim",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "upper",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "lower",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "capitalize",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          },
+          {
+            "key": "right",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              },
+              {
+                "name" : "length",
+                "type" : "number"
+              }
+            ]
+          },
+          {
+            "key": "left",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              },
+              {
+                "name" : "length",
+                "type" : "number"
+              }
+            ]
+          },
+          {
+            "key": "coalesce",
+            "data": null,
+            "params" : [
+              {
+                "name" : "exprs",
+                "type" : "array" 
+              }
+            ]
+          },
+          {
+            "key": "replace",
+            "data": null,
+            "modal": true,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              },
+              {
+                "name" : "search",
+                "type" : "string" 
+              },
+              {
+                "name" : "replace",
+                "type" : "string" 
+              }
+            ],
+            "modalData": [
+              {
+                "type": "text",
+                "title": "Text"
+              },
+              {
+                "type": "text",
+                "title": "Replace With"
+              }
+            ]
+          },
+          {
+            "key": "reverse",
+            "data": null,
+            "params" : [
+              {
+                "name" : "colm",
+                "type" : "string" 
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "data quality",
+    "expanded": false,
+    "data": [
+      {
+        "key": "expect_column_distinct_values_to_be_in_set",
+        "data": null
+      },
+      {
+        "key": "expect_column_max_to_be_between",
+        "data": null
+      },
+      {
+        "key": "expect_column_median_to_be_between",
+        "data": null
+      },
+      {
+        "key": "expect_column_values_to_be_unique",
+        "data": null
+      },
+      {
+        "key": "expect_multicolumn_sum_to_equal",
+        "data": null
+      }
+    ]
+  },
+  {
+    "key": "joins / merges",
+    "expanded": false,
+    "data": [
+      {
+        "key": "Inner Join",
+        "data": null
+      },
+      {
+        "key": "Right Join",
+        "data": null
+      },
+      {
+        "key": "Left Join",
+        "data": null
+      },
+      {
+        "key": "Full Outer Join",
+        "data": null
+      }
+    ]
+  }
+]

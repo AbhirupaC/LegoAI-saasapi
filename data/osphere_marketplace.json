@@ -1,0 +1,264 @@
+{
+    "AIMLdata": [
+
+    {
+
+      "title": "Prediction",
+
+      "icon": "predictionIcon",
+
+      "description":
+
+        "Advanced analytics use cases based on ML/NLP techniques - Escalation, Retention etc"
+
+    },
+
+    {
+
+      "title": "Forecasting",
+
+      "icon": "forecastingIcon",
+
+      "description":
+
+        "Forecast KPIs based on historical patterns based on statistical and ML techniques - Orders, Renewals"
+
+    },
+
+    {
+
+      "title": "Optimization",
+
+      "icon": "optimizationIcon",
+
+      "description":
+
+        "Optimal business scenarios derived by simulation based on ML techniques - Pricing, Production"
+
+    },
+
+    {
+
+      "title": "Segmentation",
+
+      "icon": "segmentationIcon",
+
+      "description":
+
+        "Segmentation of customer / product attributes based on clustering techniques"
+
+    },
+
+    {
+
+      "title": "Recommendation",
+
+      "icon": "recommendationIcon",
+
+      "description":
+
+        "Recommendations of optimal metrics and KPIs based on ML based ranking and prioritization"
+
+    }
+
+  ],
+
+    "FunctionalData" : [
+
+    {
+
+      "title": "Customer",
+
+      "icon": "customerIcon",
+
+      "description":
+
+        "Customer landscape that comprises of profile, contacts, hierarchy, segmentation, industry, revenue, geography etc. ",
+
+      "accessicon": "closeAccessIcon",
+
+      "update": "12/Mar/2023",
+
+      "cost": "$10 - 780$"
+
+    },
+
+    {
+
+      "title": "Product",
+
+      "icon": "productIcon",
+
+      "description":
+
+        "Product information that consists of product lifecycle management, product hierarchy, product engineering and listings",
+
+      "accessicon": "closeAccessIcon",
+
+      "update": "03/Feb/2023",
+
+      "cost": "Free/Trial"
+    },
+
+    {
+
+      "title": "Orders",
+
+      "icon": "ordersIcon",
+
+      "description":
+
+        "Customer order information that includes order history, install base, conversion and fulfillment details of historical orders",
+
+      "accessicon": "openAccessIcon",
+
+      "update": "02/Apr/2023",
+
+      "cost": "$8 - 230$"
+
+    },
+
+    {
+
+      "title": "Support",
+
+      "icon": "supportIcon",
+
+      "description":
+
+        "Customer landscape that comprises of profile, contacts, hierarchy, segmentation, industry, revenue, geography etc. ",
+
+      "accessicon": "openAccessIcon",
+
+      "update": "06/Apr/2023",
+
+      "cost": "$195 - 540$"
+
+    }
+
+  ],
+
+"featuredData" : [
+
+    {
+
+      "title": "Customer Experience",
+
+      "icon": "customerExpIcon",
+
+      "subtitle": "NPS Score",
+
+      "value": "4.5%",
+
+      "valicon": "decreaseIcon"
+
+    },
+
+    {
+
+      "title": "Product Management",
+
+      "icon": "customerExpIcon",
+
+      "subtitle": "Turnaround Time",
+
+      "value": "6 Days",
+
+      "valicon": "increaseIcon"
+
+    },
+
+    {
+
+      "title": "Support & Sevices",
+
+      "icon": "SupSerIcon",
+
+      "subtitle": "SR Resolution Time",
+
+      "value": "16 Hrs",
+
+      "valicon": "decreaseIcon"
+
+    }
+
+  ],
+ "popularData" : [
+
+    {
+
+      "title": "Customer 360",
+
+      "icon": "customer360Icon",
+
+      "subtitle": "Customer Attrition Rate",
+
+      "value": "2.5%",
+
+      "valicon": "decreaseIcon"
+
+    },
+
+    {
+
+      "title": "Supply Chain Mgmt",
+
+      "icon": "customerExpIcon",
+
+      "subtitle": "Order Fullfillment",
+
+      "value": "2.5%",
+
+      "valicon": "increaseIcon"
+
+    },
+
+    {
+
+      "title": "Sales Effectiveness",
+
+      "icon": "salesEffIcon",
+
+      "subtitle": "Conversion Rate",
+
+      "value": "3.6%",
+
+      "valicon": "increaseIcon"
+
+    }
+
+  ],
+"navItems" : [
+
+    {
+
+      "title": "Categories",
+
+      "options": ["Cat 1", "Cat 2", "Cat 3"]
+    },
+
+    {
+
+      "title": "Business Needs",
+
+      "options": ["Need 1", "Need 2", "Need 3"]
+    },
+
+    {
+
+      "title": "Providers",
+
+      "options": ["Item 1", "Item 2", "Item 3"]
+
+    },
+
+    {
+
+      "title": "My Requests",
+
+      "options": ["Req 1", "Req 2", "Req 3"]
+
+    }
+
+  ]
+}

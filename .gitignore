@@ -1,0 +1,16 @@
+# virtual env files
+env
+
+# deployment related env files
+.env
+
+# log files
+*.log
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+
+#test folders for local
+test
